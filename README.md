@@ -9,4 +9,4 @@ Edge Cases: In the case of letters like x, y, and z - the algorithm simply goes 
 Ex: Z -> D
 
 ### AES (Advanced Encryption Standard):
-Uses a 16 byte(128-bit) randomized key to scramble and randomize your message organized in blocks of data. This is useful as anyone who doesn't have the key cannot decrypt the message. Depending on the key size (in our case, 128-bits), the proccess of swapping, substituting, and mixing the bits happens a matter of times. As long as the key remains strong and complicated, the AES encryption algorithm remains very difficult to crack.
+Uses a 16 byte (128-bit) randomized key to scramble and randomize your message organized into fixed sized blocks of data. This is useful as anyone who doesn't have the key cannot decrypt the message. Depending on the key size (in our case, 128-bits), the proccess of swapping, substituting, permutating and mixing the bits happens a matter of times, knows as rounds. As long as the key remains strong and complicated, the AES encryption algorithm remains very difficult to crack - only those with the key can decrypt your message.
